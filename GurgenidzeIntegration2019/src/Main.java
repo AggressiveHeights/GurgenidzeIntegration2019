@@ -69,7 +69,7 @@ public class Main {
 	
 	//format strings using escape sequences
 	System.out.println("\nNow enter a String token so I may indent it for no reason: "
-			+ ");
+			);
 	String indInput = introScanner.nextLine();
 	System.out.println("And here it is: \n\t" + indInput);
 	
@@ -77,7 +77,7 @@ public class Main {
 	System.out.println("\nNow I will convert your String into a double. "
 			+ "Enter a decimal: ");
 	String casting = introScanner.nextLine();
-	doubleVarA = Double.parseDouble(casting);
+	double doubleVarA = Double.parseDouble(casting);
 	System.out.println("\nYou entered the value " + doubleVarA + ". To prove that I"
 			+ "actually casted, here's your value squared: " + 
 			(doubleVarA * doubleVarA));
