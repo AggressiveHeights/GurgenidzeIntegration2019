@@ -135,7 +135,7 @@ public class AllTheArbitraryThings {
 
     int[] intArray = new int[arbitraryScannerThree.nextInt()];
 
-    for (int f = 0; f < intArray.length - 1; f++) {// assign values to the array.
+    for (int f = 0; f < intArray.length; f++) {// assign values to the array.
       System.out
           .println("Please enter the desired value for the " + f + "'th place in the array: ");
       intArray[f] = arbitraryScannerThree.nextInt();
@@ -156,10 +156,11 @@ public class AllTheArbitraryThings {
     System.out.println("Enter the value to search for: ");
     int l = arbitraryScannerThree.nextInt();
 
-    for (int g = 0; g < intArray.length - 1; g++) {
+    for (int g = 0; g < intArray.length; g++) {
       if (intArray[g] == l) {
-        System.out.println("The value " + l + "is found at the index " + g);
+        System.out.println("The value " + l + " is found at the index " + g);
       }
+      
     }
 
     ArrayList<Integer> list = new ArrayList<Integer>();
@@ -183,7 +184,7 @@ public class AllTheArbitraryThings {
 
     int[] intArray = new int[arbitraryScannerThree.nextInt()];
 
-    for (int f = 0; f < intArray.length - 1; f++) {// assign values to the array.
+    for (int f = 0; f < intArray.length; f++) {// assign values to the array.
       System.out
           .println("Please enter the desired value for the " + f + "'th place in the array: ");
       intArray[f] = arbitraryScannerThree.nextInt();
@@ -201,10 +202,11 @@ public class AllTheArbitraryThings {
     System.out.println("The smallest value you entered was: " + smallest);
     System.out.println("The total of all the values you entered was: " + total);
 
-    for (int g = 0; g < intArray.length - 1; g++) {
+    for (int g = 0; g < intArray.length; g++) {
       if (intArray[g] == l) {
-        System.out.println("The value " + l + "is found at the index " + g);
+        System.out.println("The value " + l + " is found at the index " + g);
       }
+      
     }
 
     ArrayList<Integer> list = new ArrayList<Integer>();
