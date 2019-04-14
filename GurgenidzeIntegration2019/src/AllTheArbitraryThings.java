@@ -10,7 +10,7 @@ import java.util.Random;
 public class AllTheArbitraryThings {
   /*
    * The Java language supports 8 primitive data types: Bytes (8 bits), Shorts (16 bits), Ints (32
-   * bits), Longs (64 bits), Floats (32 bits) Doubles (64 bits), Booleans (true or false), and Chars
+   * bits), Longs (64 bits), Floats  (32 bits) Doubles (64 bits), Booleans (true or false), and Chars
    * (16 bits). Of these, all but booleans and chars deal with numbers. Their difference is in the
    * size of numbers they can contain. Booleans can be assigned a "true" or "false" value. They are
    * used heavily and logic. Chars are Java's native text data type. The contain one character and
