@@ -66,7 +66,7 @@ public class TwistTacToe {
       currentBoard.setVictoriousPlayer(currentBoard.checkWinner());
       // System.out.println(currentBoard.getVictoriousPlayer());
 
-      if (currentBoard.getVictoriousPlayer().equalsIgnoreCase("draw")) {
+      if (currentBoard.getVictoriousPlayer().equalsIgnoreCase("draw")) { // win messages
         System.out.println("Wow. You drew with yourself. Stop being so indecisive.");
         break;
       } else if (currentBoard.getVictoriousPlayer().equalsIgnoreCase("X")) {
@@ -128,9 +128,11 @@ public class TwistTacToe {
         case 7:
           line = board[0][2] + board[1][1] + board[2][0];
           break;
+        default:
+          break;
       }
 
-      String drawyet = "yes";
+      String drawyet = "yes"; // sets the val for drawyet
       for (String[] d : board) {
         for (String e : d) {
           if (e.equalsIgnoreCase(" "))
@@ -138,7 +140,7 @@ public class TwistTacToe {
         }
       }
 
-      if (line.equals("XXX") && drawyet.equals("no")) {
+      if (line.equals("XXX") && drawyet.equals("no")) { // checks if the game is over
         return "X";
       } else if (line.equals("OOO") && drawyet.equals("no")) {
         return "O";

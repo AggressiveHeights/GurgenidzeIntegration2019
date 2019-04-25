@@ -10,7 +10,7 @@ import java.util.Random;
 public class AllTheArbitraryThings {
   /*
    * The Java language supports 8 primitive data types: Bytes (8 bits), Shorts (16 bits), Ints (32
-   * bits), Longs (64 bits), Floats  (32 bits) Doubles (64 bits), Booleans (true or false), and Chars
+   * bits), Longs (64 bits), Floats (32 bits) Doubles (64 bits), Booleans (true or false), and Chars
    * (16 bits). Of these, all but booleans and chars deal with numbers. Their difference is in the
    * size of numbers they can contain. Booleans can be assigned a "true" or "false" value. They are
    * used heavily and logic. Chars are Java's native text data type. The contain one character and
@@ -21,7 +21,7 @@ public class AllTheArbitraryThings {
 
   // initialize scanner
 
-  // Scop refers to the portion of code where a variable can be accessed
+  // Scope refers to the portion of code where a variable can be accessed
 
   // A variable is a value that is subject to change
 
@@ -128,7 +128,7 @@ public class AllTheArbitraryThings {
 
   }
 
-  public static void runArbitraryPSIThree() {
+  public static void runArbitraryPSIThree() { // meets all the objectives of PSI 3
     Scanner arbitraryScannerThree = new Scanner(System.in);
     System.out.println("How many values would you like the array to hold? Enter an int: ");
 
@@ -160,7 +160,7 @@ public class AllTheArbitraryThings {
       if (intArray[g] == l) {
         System.out.println("The value " + l + " is found at the index " + g);
       }
-      
+
     }
 
     ArrayList<Integer> list = new ArrayList<Integer>();
@@ -177,7 +177,7 @@ public class AllTheArbitraryThings {
     arbitraryScannerThree.close();
   }
 
-  public static void runArbitraryPSIThree(int l) {
+  public static void runArbitraryPSIThree(int l) { // meets all the objectives of PSI 3
     Scanner arbitraryScannerThree = new Scanner(System.in);
     System.out.println("How many values would you like the array to hold? Enter an int: ");
 
@@ -206,7 +206,7 @@ public class AllTheArbitraryThings {
       if (intArray[g] == l) {
         System.out.println("The value " + l + " is found at the index " + g);
       }
-      
+
     }
 
     ArrayList<Integer> list = new ArrayList<Integer>();
