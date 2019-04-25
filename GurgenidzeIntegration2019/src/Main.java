@@ -13,6 +13,8 @@ public class Main {
     TwistTacToe.playTTT();
 
     // All the arbitrary things
+    AllTheArbitraryThings.runArbitraryPSIOne();
+    AllTheArbitraryThings.runArbitraryPSITwo();
     AllTheArbitraryThings.runArbitraryPSIThree();
 
 
